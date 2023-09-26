@@ -68,8 +68,8 @@ Install and configure Cosmovisor:
 Configure node:
 
 - Configure `minimum-gas-prices` in `nano ~/.entrypoint/config/app.toml`.
-- Configure `persistent_peers` (and `seeds`?) in `nano ~/.entrypoint/config/config.toml`.
-- Move the downloaded genesis file to `~/.entrypoint/config/genesis.json`
+- Configure `persistent_peers`/`seeds` in `nano ~/.entrypoint/config/config.toml`.
+- Move the downloaded genesis file to `~/.entrypoint/config/genesis.json`.
 
 Start node: `cosmovisor run start`.
 
