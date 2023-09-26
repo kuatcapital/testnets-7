@@ -1,8 +1,33 @@
 # entrypoint-pubtest-1
 
+- [Public Endpoints](#public-endpoints)
+- [Explorers](#explorers)
+- [Listings](#listings)
 - [Run a Full Node](#run-a-full-node)
   - [From Scratch Using Cosmovisor](#from-scratch-using-cosmovisor)
   - [Handling Upgrades Using Cosmovisor](#handling-upgrades-using-cosmovisor)
+
+## Public Endpoints
+
+- RPC: https://testnet-rpc.entrypoint.zone/
+- REST: https://testnet-rest.entrypoint.zone/swagger/
+
+## Explorers
+
+- https://explorer.entrypoint.zone/entrypoint
+- https://testnet.ping.pub/entrypoint
+
+## Listings
+
+- https://github.com/ping-pub/ping.pub/blob/main/chains/testnet/entrypoint.json
+- https://github.com/cosmos/chain-registry/tree/master/testnets/entrypointtestnet
+
+## Faucet
+
+Here are details about our running faucet:
+
+- Faucet channel on EntryPoint Discord: https://discord.com/channels/1047819102514855976/1148230965928411236
+- Discord faucet source code: https://github.com/hyphacoop/cosmos-discord-faucet
 
 ## Run a Full Node
 
