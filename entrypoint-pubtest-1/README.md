@@ -63,7 +63,7 @@ Install and configure Cosmovisor:
     # Check https://docs.cosmos.network/main/tooling/cosmovisor for more configuration options.
     ```
 - Apply environment variables: `source ~/.profile`.
-- Initialise Cosmovisor directories: `cosmovisor init ENTRYPOINT_DAEMON_NAME`.
+- Initialise Cosmovisor directories: `cosmovisor init <entrypointd-daemon-name>`.
 
 Configure node:
 
