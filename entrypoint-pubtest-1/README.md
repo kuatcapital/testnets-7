@@ -79,5 +79,5 @@ Start node: `cosmovisor run start`.
 
 - Apply environment variables: `source ~/.profile`.
 - Download new binary from https://github.com/entrypoint-zone/entrypoint/releases.
-- Register the upgrade: `cosmovisor add-upgrade <upgrade-name> <new-entrypointd-binary-name>`.
+- Register the upgrade: `cosmovisor add-upgrade <upgrade-name> <new-entrypointd-binary>`.
 - Sit back and relax.
