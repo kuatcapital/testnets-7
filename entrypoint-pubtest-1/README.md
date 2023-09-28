@@ -53,7 +53,7 @@ Install and configure Cosmovisor:
 
 - Install Cosmovisor: `go install cosmossdk.io/tools/cosmovisor/cmd/cosmovisor@latest`.
 - If you need a specific version of go you can run e.g. `go install golang.org/dl/go1.20@latest`.
-- Set environment variables (you can use `:
+- Set environment variables:
     ```bash
     echo "# Setup Cosmovisor" >> ~/.profile
     echo "export DAEMON_NAME=entrypointd" >> ~/.profile
