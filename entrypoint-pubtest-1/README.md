@@ -52,7 +52,7 @@ Initialise node config files (this assumes you renamed the binary to `entrypoint
 Install and configure Cosmovisor:
 
 - Install Cosmovisor: `go install cosmossdk.io/tools/cosmovisor/cmd/cosmovisor@latest`.
-- If you need a specific version of go you can run e.g. `go install golang.org/dl/go1.20@latest`.
+- If you need a specific version of go you can run e.g. `go install golang.org/dl/go1.20@latest`. The executable will be `go1.20` in this example.
 - Set environment variables:
     ```bash
     echo "# Setup Cosmovisor" >> ~/.profile
@@ -65,7 +65,7 @@ Install and configure Cosmovisor:
     # Check https://docs.cosmos.network/main/tooling/cosmovisor for more configuration options.
     ```
 - Apply environment variables: `source ~/.profile`.
-- Initialise Cosmovisor directories: `cosmovisor init <entrypointd-daemon>`.
+- Initialise Cosmovisor directories: `cosmovisor init <path-to-entrypointd-binary>` (hint: `whereis entrypointd` for the path).
 
 Configure node:
 
@@ -73,13 +73,37 @@ Configure node:
 - Configure `persistent_peers`/`seeds` in `nano ~/.entrypoint/config/config.toml`.
 - Move the downloaded genesis file to `~/.entrypoint/config/genesis.json`.
 
-Start node: `cosmovisor run start`.
+At this point `cosmovisor run` will be the equivalent of running `entrypointd`. In fact, to run the node you can use `cosmovisor run start`. **It is highly recommended to run the EntryPoint as a service**, so that it can run in the background. You will need to replicate the environment variables defined above.
 
-> It is highly recommended to run the above as a service, so that it can run in the background.
+Here's an example service file with some placeholder (`<...>`) values:
+
+```bash
+[Unit]
+Description=EntryPoint Node
+After=network.target
+
+[Service]
+Type=simple
+User=<USER>
+ExecStart=<HOME>/go/bin/cosmovisor run start --home <NODE-HOME>
+Restart=on-failure
+RestartSec=3
+LimitNOFILE=4096
+
+Environment="DAEMON_NAME=entrypointd"
+Environment="DAEMON_HOME=/home/entrypointd/.entrypoint"  # Be sure this is correct!!!!
+# On internal testnets, the above will be /opt/entrypoint-zone/entrypoint/data/entrypoint
+Environment="DAEMON_ALLOW_DOWNLOAD_BINARIES=false"
+Environment="DAEMON_LOG_BUFFER_SIZE=512"
+Environment="DAEMON_RESTART_AFTER_UPGRADE=true"
+
+[Install]
+WantedBy=multi-user.target
+```
 
 ### Handling Upgrades Using Cosmovisor
 
+- Download new binary from https://github.com/entrypoint-zone/entrypoint/releases or obtain it from a reputable source.
 - Apply environment variables: `source ~/.profile`.
-- Download new binary from https://github.com/entrypoint-zone/entrypoint/releases.
-- Register the upgrade: `cosmovisor add-upgrade <upgrade-name> <new-entrypointd-binary>`.
-- Sit back and relax.
+- Register the upgrade: `cosmovisor add-upgrade <upgrade-name> <path-to-new-entrypointd-binary>`.
+- Wait for the upgrade height and monitor your node's logs to ensure everything goes well.
