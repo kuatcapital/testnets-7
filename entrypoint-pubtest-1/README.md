@@ -70,6 +70,7 @@ Install and configure Cosmovisor:
 Configure node:
 
 - Configure `minimum-gas-prices` in `nano ~/.entrypoint/config/app.toml`.
+  - Recommended minimum gas price: `0.01ibc/E774302AE43D5FA03522C42B14823288E7DD1B2F54F85DFD3D6FC3E5FCF54645`.
 - Configure `persistent_peers` in `nano ~/.entrypoint/config/config.toml` (obtain these from a reputable source).
 - Move the downloaded genesis file to `~/.entrypoint/config/genesis.json`.
 
