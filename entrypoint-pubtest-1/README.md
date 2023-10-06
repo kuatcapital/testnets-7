@@ -31,7 +31,7 @@ Here are details about our running faucet:
 
 ## Run a Full Node
 
-> **NOTE: Participation in the public testnet is currently in closed beta but will eventually be opened. Some of the steps below will not work for participants with no beta access**
+> **NOTE: Participation in the public testnet is currently in closed beta but will eventually be opened. Some of the steps below will not work for participants with no beta access.**
 
 > Based on material from:
 > 
@@ -70,7 +70,7 @@ Install and configure Cosmovisor:
 Configure node:
 
 - Configure `minimum-gas-prices` in `nano ~/.entrypoint/config/app.toml`.
-- Configure `persistent_peers`/`seeds` in `nano ~/.entrypoint/config/config.toml`.
+- Configure `persistent_peers` in `nano ~/.entrypoint/config/config.toml` (obtain these from a reputable source).
 - Move the downloaded genesis file to `~/.entrypoint/config/genesis.json`.
 
 At this point `cosmovisor run` will be the equivalent of running `entrypointd`. In fact, to run the node you can use `cosmovisor run start`. **It is highly recommended to run the EntryPoint as a service**, so that it can run in the background. You will need to replicate the environment variables defined above.
