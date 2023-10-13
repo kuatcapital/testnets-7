@@ -42,7 +42,7 @@ Here are details about our running faucet:
 
 Download binary and genesis:
 
-- Binary from: https://github.com/entrypoint-zone/entrypoint/releases/tag/v1.0.0.
+- Binary from: https://github.com/entrypoint-zone/testnets/releases/tag/v1.0.0.
 - Genesis from: https://github.com/entrypoint-zone/testnets/blob/main/entrypoint-pubtest-1/genesis.json.
 
 For convenience, copy the downloaded binary to `$GOPATH/bin/` with the name `entrypointd` for easy execution:
@@ -108,7 +108,7 @@ WantedBy=multi-user.target
 
 ### Handling Upgrades Using Cosmovisor
 
-- Download new binary from https://github.com/entrypoint-zone/entrypoint/releases or obtain it from a reputable source.
+- Download new binary from https://github.com/entrypoint-zone/testnets/releases or obtain it from a reputable source.
 - Apply environment variables: `source ~/.profile`.
 - Register the upgrade: `cosmovisor add-upgrade <upgrade-name> <path-to-new-entrypointd-binary>`.
 - Wait for the upgrade height and monitor your node's logs to ensure everything goes well.
