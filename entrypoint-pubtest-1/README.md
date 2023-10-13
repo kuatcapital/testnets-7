@@ -45,7 +45,11 @@ Download binary and genesis:
 - Binary from: https://github.com/entrypoint-zone/entrypoint/releases/tag/v1.0.0.
 - Genesis from: https://github.com/entrypoint-zone/testnets/blob/main/entrypoint-pubtest-1/genesis.json.
 
-Initialise node config files (this assumes you renamed the binary to `entrypointd`):
+For convenience, copy the downloaded binary to `$GOPATH/bin/` with the name `entrypointd` for easy execution:
+
+- `cp <downloaded-binary> $GOPATH/bin/entrypointd` (make sure `$GOPATH` variable exists)
+
+Initialise node config files:
 
 - `entrypointd init <node-name> --chain-id entrypoint-pubtest-1`.
 
@@ -65,7 +69,7 @@ Install and configure Cosmovisor:
     # Check https://docs.cosmos.network/main/tooling/cosmovisor for more configuration options.
     ```
 - Apply environment variables: `source ~/.profile`.
-- Initialise Cosmovisor directories: `cosmovisor init <path-to-entrypointd-binary>` (hint: `whereis entrypointd` for the path).
+- Initialise Cosmovisor directories: `cosmovisor init <path-to-entrypointd-binary>`.
 
 Configure node:
 
