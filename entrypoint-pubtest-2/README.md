@@ -74,9 +74,9 @@ Install and configure Cosmovisor:
 Configure node:
 
 - Configure `minimum-gas-prices` in `nano ~/.entrypoint/config/app.toml`.
-  - Recommended value: **TODO**.
+  - Recommended value: `0uentry`.
 - Configure `persistent_peers` in `nano ~/.entrypoint/config/config.toml`.
-  - Recommended value: **TODO**.
+  - Recommended value: `persistent_peers = "81bf2ade773a30eccdfee58a041974461f1838d8@185.107.68.148:26656,d57c7572d58cb3043770f2c0ba412b35035233ad@80.64.208.169:26656"`.
 - Move the downloaded genesis file to `~/.entrypoint/config/genesis.json`.
 
 At this point `cosmovisor run` will be the equivalent of running `entrypointd`. In fact, to run the node you can use `cosmovisor run start`. **It is highly recommended to run the EntryPoint as a service**, so that it can run in the background. You will need to replicate the environment variables defined above.
