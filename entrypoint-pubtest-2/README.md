@@ -6,6 +6,7 @@
 - [Run a Full Node](#run-a-full-node)
   - [From Scratch Using Cosmovisor](#from-scratch-using-cosmovisor)
   - [Handling Upgrades Using Cosmovisor](#handling-upgrades-using-cosmovisor)
+  - [Become a Validator](#become-a-validator)
 
 ## Public Endpoints
 
@@ -72,7 +73,7 @@ Install and configure Cosmovisor:
 Configure node:
 
 - Configure `minimum-gas-prices` in `nano ~/.entrypoint/config/app.toml`.
-  - Recommended value: `0uentry`.
+  - Recommended value: `0.01ibc/8A138BC76D0FB2665F8937EC2BF01B9F6A714F6127221A0E155106A45E09BCC5`.
 - Configure `persistent_peers` in `nano ~/.entrypoint/config/config.toml`.
   - Recommended value: `persistent_peers = "81bf2ade773a30eccdfee58a041974461f1838d8@185.107.68.148:26656,d57c7572d58cb3043770f2c0ba412b35035233ad@80.64.208.169:26656"`.
 - Move the downloaded genesis file to `~/.entrypoint/config/genesis.json`.
@@ -110,3 +111,7 @@ WantedBy=multi-user.target
 - Apply environment variables: `source ~/.profile`.
 - Register the upgrade: `cosmovisor add-upgrade <upgrade-name> <path-to-new-entrypointd-binary>`.
 - Wait for the upgrade height and monitor your node's logs to ensure everything goes well.
+
+### Become a Validator
+
+EntryPoint currently uses `ibc/8A138BC76D0FB2665F8937EC2BF01B9F6A714F6127221A0E155106A45E09BCC5` (ATOM) as the fee token and `uentry` (ENTRY) for voting power. In order to become a validator you will need to request an amount of both of these tokens from the testnet maintainers.
