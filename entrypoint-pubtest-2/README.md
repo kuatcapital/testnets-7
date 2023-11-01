@@ -96,7 +96,7 @@ RestartSec=3
 LimitNOFILE=4096
 
 Environment="DAEMON_NAME=entrypointd"
-Environment="DAEMON_HOME=/home/entrypointd/.entrypoint"  # Double-check this!
+Environment="DAEMON_HOME=/home/<USER>/.entrypoint"  # Double-check this!
 Environment="DAEMON_ALLOW_DOWNLOAD_BINARIES=false"
 Environment="DAEMON_LOG_BUFFER_SIZE=512"
 Environment="DAEMON_RESTART_AFTER_UPGRADE=true"
