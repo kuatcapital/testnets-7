@@ -31,8 +31,6 @@ Here are details about our running faucet:
 
 ## Run a Full Node
 
-> **NOTE: Participation in the public testnet is currently in closed beta but will eventually be opened. Some of the steps below will not work for participants with no beta access.**
-
 > Based on material from:
 > 
 > - https://docs.cosmos.network/main/tooling/cosmovisor
