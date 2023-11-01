@@ -23,13 +23,6 @@
 - https://github.com/ping-pub/ping.pub/blob/main/chains/testnet/entrypoint.json
 - https://github.com/cosmos/chain-registry/tree/master/testnets/entrypointtestnet
 
-## Faucet
-
-Here are details about our running faucet:
-
-- Faucet channel on EntryPoint Discord: https://discord.com/channels/1047819102514855976/1148230965928411236
-- Discord faucet source code: https://github.com/hyphacoop/cosmos-discord-faucet
-
 ## Run a Full Node
 
 > Based on material from:
