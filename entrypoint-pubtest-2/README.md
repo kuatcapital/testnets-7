@@ -5,8 +5,8 @@
 - [Listings](#listings)
 - [Run a Full Node](#run-a-full-node)
   - [From Scratch Using Cosmovisor](#from-scratch-using-cosmovisor)
-  - [Handling Upgrades Using Cosmovisor](#handling-upgrades-using-cosmovisor)
   - [Become a Validator](#become-a-validator)
+  - [Handling Upgrades Using Cosmovisor](#handling-upgrades-using-cosmovisor)
 
 ## Public Endpoints
 
@@ -105,13 +105,15 @@ Environment="DAEMON_RESTART_AFTER_UPGRADE=true"
 WantedBy=multi-user.target
 ```
 
+### Become a Validator
+
+EntryPoint currently uses `ibc/8A138BC76D0FB2665F8937EC2BF01B9F6A714F6127221A0E155106A45E09BCC5` (ATOM) as the fee token and `uentry` (ENTRY) for voting power. In order to become a validator you will need to request an amount of both of these tokens from the testnet maintainers.
+
 ### Handling Upgrades Using Cosmovisor
+
+The public testnet is expected to require upgrades as new features are added or bugs are discovered. This is a rough guide for handling upgrades using Cosmovisor:
 
 - Download new binary from https://github.com/entrypoint-zone/testnets/releases or obtain it from a reputable source.
 - Apply environment variables: `source ~/.profile`.
 - Register the upgrade: `cosmovisor add-upgrade <upgrade-name> <path-to-new-entrypointd-binary>`.
 - Wait for the upgrade height and monitor your node's logs to ensure everything goes well.
-
-### Become a Validator
-
-EntryPoint currently uses `ibc/8A138BC76D0FB2665F8937EC2BF01B9F6A714F6127221A0E155106A45E09BCC5` (ATOM) as the fee token and `uentry` (ENTRY) for voting power. In order to become a validator you will need to request an amount of both of these tokens from the testnet maintainers.
