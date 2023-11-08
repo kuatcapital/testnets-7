@@ -17,9 +17,9 @@
 
 ## Explorers
 
-- https://explorer.entrypoint.zone/entrypoint
-- https://testnet.ping.pub/entrypoint
-- https://explorer.hexnodes.co/entrypoint/staking
+- https://explorer.entrypoint.zone/entrypoint provided by [Simply Staking](https://simplystaking.com/)
+- https://testnet.ping.pub/entrypoint provided by [Ping.pub](Ping.pub)
+- https://explorer.hexnodes.co/entrypoint/staking provided by [Hexnodes](https://hexnodes.co/)
 
 ## Listings
 
@@ -116,7 +116,7 @@ The public testnet is expected to require upgrades as new features are added or 
 
 ## More Docs
 
-https://docs.nodex.one/networks/testnet/entrypoint provided by https://twitter.com/NodeXEmperor
+https://docs.nodex.one/networks/testnet/entrypoint provided by [nodex.one](https://twitter.com/NodeXEmperor)
 
 ## Contributors
 
