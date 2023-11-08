@@ -17,6 +17,7 @@
 
 - https://explorer.entrypoint.zone/entrypoint
 - https://testnet.ping.pub/entrypoint
+- https://explorer.hexnodes.co/entrypoint/staking
 
 ## Listings
 
