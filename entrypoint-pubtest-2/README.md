@@ -7,6 +7,8 @@
   - [From Scratch Using Cosmovisor](#from-scratch-using-cosmovisor)
   - [Become a Validator](#become-a-validator)
   - [Handling Upgrades Using Cosmovisor](#handling-upgrades-using-cosmovisor)
+- [More Docs](#more-docs)
+- [Contributors](#contributors)
 
 ## Public Endpoints
 
@@ -111,3 +113,12 @@ The public testnet is expected to require upgrades as new features are added or 
 - Apply environment variables: `source ~/.profile`.
 - Register the upgrade: `cosmovisor add-upgrade <upgrade-name> <path-to-new-entrypointd-binary>`.
 - Wait for the upgrade height and monitor your node's logs to ensure everything goes well.
+
+## More Docs
+
+https://docs.nodex.one/networks/testnet/entrypoint provided by https://twitter.com/NodeXEmperor
+
+## Contributors
+
+- https://hexnodes.co/
+- https://twitter.com/NodeXEmperor
