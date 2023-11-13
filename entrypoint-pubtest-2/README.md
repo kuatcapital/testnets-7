@@ -29,7 +29,7 @@ Visit the [Scheduled Upgrades](./UPGRADES.md) page for details on previous, curr
 ## Explorers
 
 - https://explorer.entrypoint.zone/entrypoint provided by [Simply Staking](https://simplystaking.com/)
-- https://testnet.ping.pub/entrypoint provided by [Ping.pub](Ping.pub)
+- https://testnet.ping.pub/entrypoint provided by [Ping.pub](https://ping.pub/)
 - https://explorer.hexnodes.co/entrypoint/staking provided by [Hexnodes](https://hexnodes.co/)
 - https://test.anode.team/entrypoint provided by [ANODE.TEAM](https://anode.team/)
 - https://exp.utsa.tech/entrypoint-test provided by [lesnik | UTSA](https://utsa.gitbook.io/services)
@@ -141,7 +141,7 @@ The public testnet is expected to require upgrades as new features are added or 
 
 Special thanks to:
 
-- [Ping.pub](Ping.pub)
+- [Ping.pub](https://ping.pub/)
 - [Hexnodes](https://hexnodes.co/)
 - [nodex.one](https://twitter.com/NodeXEmperor)
 - [ANODE.TEAM](https://anode.team/)
