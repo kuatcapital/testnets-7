@@ -20,6 +20,7 @@
 - https://explorer.entrypoint.zone/entrypoint provided by [Simply Staking](https://simplystaking.com/)
 - https://testnet.ping.pub/entrypoint provided by [Ping.pub](Ping.pub)
 - https://explorer.hexnodes.co/entrypoint/staking provided by [Hexnodes](https://hexnodes.co/)
+- https://test.anode.team/entrypoint provided by [ANODE.TEAM](https://anode.team/)
 
 ## Listings
 
@@ -120,5 +121,8 @@ https://docs.nodex.one/networks/testnet/entrypoint provided by [nodex.one](https
 
 ## Contributors
 
+Special thanks to:
+
 - https://hexnodes.co/
 - https://twitter.com/NodeXEmperor
+- https://anode.team/
