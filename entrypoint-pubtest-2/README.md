@@ -1,6 +1,7 @@
 # entrypoint-pubtest-2
 
-- [Public Endpoints](#public-endpoints)
+- [Testnet Details](#testnet-details)
+- [Endpoints](#endpoints)
 - [Explorers](#explorers)
 - [Listings](#listings)
 - [Run a Full Node](#run-a-full-node)
@@ -10,7 +11,17 @@
 - [More Docs](#more-docs)
 - [Contributors](#contributors)
 
-## Public Endpoints
+## Testnet Details
+
+- **Chain ID**: `entrypoint-pubtest-2`
+- **Launch date**: 2023-10-25
+- **Current version**: `v1.1.1`
+- **Launch version**: `v1.1.1`
+- **Genesis file**: included in this folder.
+
+Visit the [Scheduled Upgrades](./UPGRADES.md) page for details on current and upcoming versions.
+
+## Endpoints
 
 - RPC: https://testnet-rpc.entrypoint.zone/
 - REST: https://testnet-rest.entrypoint.zone/swagger/
@@ -57,7 +68,7 @@ Install and configure Cosmovisor:
     echo "# Setup Cosmovisor" >> ~/.profile
     echo "export DAEMON_NAME=entrypointd" >> ~/.profile
     echo "export DAEMON_HOME=$HOME/.entrypoint" >> ~/.profile
-    echo "export DAEMON_ALLOW_DOWNLOAD_BINARIES=false" >> ~/.profile
+    echo "export DAEMON_ALLOW_DOWNLOAD_BINARIES=true" >> ~/.profile
     echo "export DAEMON_LOG_BUFFER_SIZE=512" >> ~/.profile
     echo "export DAEMON_RESTART_AFTER_UPGRADE=true" >> ~/.profile
   
@@ -93,7 +104,7 @@ LimitNOFILE=4096
 
 Environment="DAEMON_NAME=entrypointd"
 Environment="DAEMON_HOME=/home/<USER>/.entrypoint"  # Double-check this!
-Environment="DAEMON_ALLOW_DOWNLOAD_BINARIES=false"
+Environment="DAEMON_ALLOW_DOWNLOAD_BINARIES=true"
 Environment="DAEMON_LOG_BUFFER_SIZE=512"
 Environment="DAEMON_RESTART_AFTER_UPGRADE=true"
 
