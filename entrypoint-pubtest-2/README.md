@@ -132,7 +132,7 @@ The public testnet is expected to require upgrades as new features are added or 
 
 ## More Docs
 
-- [Statesync guide]()
+- [Statesync guide](https://explorer.entrypoint.zone/entrypoint/statesync)
 - [Testnet information and guides](https://docs.nodex.one/networks/testnet/entrypoint) provided by [nodex.one](https://twitter.com/NodeXEmperor)
 - [Statesync guide](https://ivans-organization-17.gitbook.io/cosmos-node/entrypoint) provided by [tarabukinivan](https://explorer.entrypoint.zone/entrypoint/staking/entrypointvaloper1hzw08lptr8fa07f35ff0azxt7qtsh90srqpfx7)
 - [Guides in Russian](https://teletype.in/@lesnik13utsa/ngyL41zQdXu) provided by [lesnik | UTSA](https://utsa.gitbook.io/services)
