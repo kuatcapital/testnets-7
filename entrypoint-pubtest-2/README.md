@@ -32,6 +32,7 @@ Visit the [Scheduled Upgrades](./UPGRADES.md) page for details on previous, curr
 - https://testnet.ping.pub/entrypoint provided by [Ping.pub](Ping.pub)
 - https://explorer.hexnodes.co/entrypoint/staking provided by [Hexnodes](https://hexnodes.co/)
 - https://test.anode.team/entrypoint provided by [ANODE.TEAM](https://anode.team/)
+- https://exp.utsa.tech/entrypoint-test provided by [lesnik | UTSA](https://utsa.gitbook.io/services)
 
 ## Listings
 
@@ -130,12 +131,17 @@ The public testnet is expected to require upgrades as new features are added or 
 
 ## More Docs
 
-https://docs.nodex.one/networks/testnet/entrypoint provided by [nodex.one](https://twitter.com/NodeXEmperor)
+- [Testnet information and guides](https://docs.nodex.one/networks/testnet/entrypoint) provided by [nodex.one](https://twitter.com/NodeXEmperor)
+- [Statesync guide](https://ivans-organization-17.gitbook.io/cosmos-node/entrypoint) provided by [tarabukinivan](https://explorer.entrypoint.zone/entrypoint/staking/entrypointvaloper1hzw08lptr8fa07f35ff0azxt7qtsh90srqpfx7)
+- [Guides in Russian](https://teletype.in/@lesnik13utsa/ngyL41zQdXu) provided by [lesnik | UTSA](https://utsa.gitbook.io/services)
 
 ## Contributors
 
 Special thanks to:
 
-- https://hexnodes.co/
-- https://twitter.com/NodeXEmperor
-- https://anode.team/
+- [Ping.pub](Ping.pub)
+- [Hexnodes](https://hexnodes.co/)
+- [nodex.one](https://twitter.com/NodeXEmperor)
+- [ANODE.TEAM](https://anode.team/)
+- [lesnik | UTSA](https://utsa.gitbook.io/services)
+- [tarabukinivan](https://explorer.entrypoint.zone/entrypoint/staking/entrypointvaloper1hzw08lptr8fa07f35ff0azxt7qtsh90srqpfx7)
