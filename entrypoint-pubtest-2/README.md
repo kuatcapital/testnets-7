@@ -19,7 +19,7 @@
 - **Launch version**: `v1.1.1`
 - **Genesis file**: included in this folder.
 
-Visit the [Scheduled Upgrades](./UPGRADES.md) page for details on current and upcoming versions.
+Visit the [Scheduled Upgrades](./UPGRADES.md) page for details on previous, current and upcoming versions.
 
 ## Endpoints
 
@@ -111,6 +111,8 @@ Environment="DAEMON_RESTART_AFTER_UPGRADE=true"
 [Install]
 WantedBy=multi-user.target
 ```
+
+At this point you should visit the [Scheduled Upgrades](./UPGRADES.md) page for details on previous, current and upcoming versions.
 
 ### Become a Validator
 
