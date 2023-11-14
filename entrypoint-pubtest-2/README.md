@@ -34,6 +34,7 @@ Visit the [Scheduled Upgrades](./UPGRADES.md) page for details on previous, curr
 - https://test.anode.team/entrypoint provided by [ANODE.TEAM](https://anode.team/)
 - https://exp.utsa.tech/entrypoint-test provided by [lesnik | UTSA](https://utsa.gitbook.io/services)
 - https://explorer.stavr.tech/Entrypoint-Testnet/staking by [STAVR](https://github.com/obajay)
+- https://testnet.itrocket.net/entrypoint/staking by [ITROCKET](https://itrocket.net)
 
 ## Listings
 
@@ -135,9 +136,12 @@ The public testnet is expected to require upgrades as new features are added or 
 
 ## More Docs And Guides
 
-- [Testnet information and guides](https://docs.nodex.one/networks/testnet/entrypoint) provided by [nodex.one](https://twitter.com/NodeXEmperor)
-- [Statesync guide](https://ivans-organization-17.gitbook.io/cosmos-node/entrypoint) provided by [tarabukinivan](https://explorer.entrypoint.zone/entrypoint/staking/entrypointvaloper1hzw08lptr8fa07f35ff0azxt7qtsh90srqpfx7)
-- [Guides in Russian](https://teletype.in/@lesnik13utsa/ngyL41zQdXu) provided by [lesnik | UTSA](https://utsa.gitbook.io/services)
+- [Testnet information and guides](https://docs.nodex.one/networks/testnet/entrypoint) provided by [nodex.one](https://twitter.com/NodeXEmperor).
+- [Statesync guide](https://ivans-organization-17.gitbook.io/cosmos-node/entrypoint) provided by [tarabukinivan](https://explorer.entrypoint.zone/entrypoint/staking/entrypointvaloper1hzw08lptr8fa07f35ff0azxt7qtsh90srqpfx7).
+- [Guides in Russian](https://teletype.in/@lesnik13utsa/ngyL41zQdXu) provided by [lesnik | UTSA](https://utsa.gitbook.io/services).
+- [Testnet information and guides](https://itrocket.net/services/testnet/entrypoint/) provided by [ITROCKET](https://itrocket.net).
+- [Telegram governance bot](https://t.me/itrocket_testnet_proposal_bot) provided by [ITROCKET](https://itrocket.net).
+- [RPC scanner](https://itrocket.net/services/testnet/entrypoint/public-rpc/) provided by [ITROCKET](https://itrocket.net).
 
 ## Contributors
 
@@ -150,3 +154,4 @@ Special thanks to:
 - [lesnik | UTSA](https://utsa.gitbook.io/services)
 - [tarabukinivan](https://explorer.entrypoint.zone/entrypoint/staking/entrypointvaloper1hzw08lptr8fa07f35ff0azxt7qtsh90srqpfx7)
 - [STAVR](https://github.com/obajay)
+- [ITROCKET](https://itrocket.net)
