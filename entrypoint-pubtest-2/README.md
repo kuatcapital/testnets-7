@@ -5,7 +5,7 @@
 - [Explorers](#explorers)
 - [Listings](#listings)
 - [Run a Full Node](#run-a-full-node)
-  - [From Scratch Using Cosmovisor](#from-scratch-using-cosmovisor)
+  - [Using Cosmovisor](#using-cosmovisor)
   - [Become a Validator](#become-a-validator)
   - [Handling Upgrades Using Cosmovisor](#handling-upgrades-using-cosmovisor)
 - [More Docs](#more-docs)
@@ -47,9 +47,9 @@ Visit the [Scheduled Upgrades](./UPGRADES.md) page for details on previous, curr
 > - https://docs.cosmos.network/main/tooling/cosmovisor
 > - https://docs.osmosis.zone/networks/join-mainnet/#set-up-cosmovisor
 
-### From Scratch Using Cosmovisor
+### Using Cosmovisor
 
-Download binary and genesis:
+Download binary and genesis (Note: genesis only needed if syncing from scratch):
 
 - Binary from: https://github.com/entrypoint-zone/testnets/releases/tag/v1.1.1.
 - Genesis from: https://github.com/entrypoint-zone/testnets/blob/main/entrypoint-pubtest-2/genesis.json.
@@ -87,6 +87,7 @@ Configure node:
 - Configure `persistent_peers` in `nano ~/.entrypoint/config/config.toml`.
   - Recommended value: `persistent_peers = "81bf2ade773a30eccdfee58a041974461f1838d8@185.107.68.148:26656,d57c7572d58cb3043770f2c0ba412b35035233ad@80.64.208.169:26656"`.
 - Move the downloaded genesis file to `~/.entrypoint/config/genesis.json`.
+- Configure State Sync in `$DAEMON_HOME/config/config.toml` by following [this guide](https://explorer.entrypoint.zone/entrypoint/statesync).
 
 At this point `cosmovisor run` will be the equivalent of running `entrypointd`. In fact, to run the node you can use `cosmovisor run start`. **It is highly recommended to run the EntryPoint as a service**, so that it can run in the background. You will need to replicate the environment variables defined above.
 
@@ -115,7 +116,7 @@ Environment="DAEMON_RESTART_AFTER_UPGRADE=true"
 WantedBy=multi-user.target
 ```
 
-At this point you should visit the [Scheduled Upgrades](./UPGRADES.md) page for details on previous, current and upcoming versions.
+At this point you should visit the [Scheduled Upgrades](./UPGRADES.md) page for details on current and upcoming versions.
 
 ### Become a Validator
 
