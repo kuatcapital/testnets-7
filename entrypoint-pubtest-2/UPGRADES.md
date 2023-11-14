@@ -35,7 +35,7 @@ Otherwise, if you opt to run Cosmovisor with `DAEMON_ALLOW_DOWNLOAD_BINARIES=fal
 The recommended steps to upgrade to the new version without Cosmovisor are as follows:
 
 - Download new binary from https://github.com/entrypoint-zone/testnets/releases/tag/v1.2.0 or obtain it from a reputable source.
-- At the upgrade height, once your node has stopped automatically, back up the `.entrypointd` directory, especially the `.entrypointd/data/priv_validator_state.json` file.
+- At the upgrade height, once your node has stopped automatically, back up the `.entrypoint` directory, especially the `.entrypoint/data/priv_validator_state.json` file.
 - Swap the old binary with the downloaded binary, and restart your node.
 - From here on, the upgrade process is expected to take place automatically.
 
