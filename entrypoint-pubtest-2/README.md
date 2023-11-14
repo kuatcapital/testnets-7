@@ -8,7 +8,7 @@
   - [Using Cosmovisor](#using-cosmovisor)
   - [Become a Validator](#become-a-validator)
   - [Handling Upgrades Using Cosmovisor](#handling-upgrades-using-cosmovisor)
-- [More Docs](#more-docs)
+- [More Docs and Guides](#more-docs-and-guides)
 - [Contributors](#contributors)
 
 ## Testnet Details
@@ -88,6 +88,8 @@ Configure node:
   - Recommended value: `persistent_peers = "81bf2ade773a30eccdfee58a041974461f1838d8@185.107.68.148:26656,d57c7572d58cb3043770f2c0ba412b35035233ad@80.64.208.169:26656"`.
 - Move the downloaded genesis file to `~/.entrypoint/config/genesis.json`.
 - Configure State Sync in `$DAEMON_HOME/config/config.toml` by following [this guide](https://explorer.entrypoint.zone/entrypoint/statesync).
+  - Remember to add the port to the RPC server: `https://testnet-rpc.entrypoint.zone:443`
+  - Two RPC servers are needed, and it is recommended to find a different RPC server, but the same one can be reused.
 
 At this point `cosmovisor run` will be the equivalent of running `entrypointd`. In fact, to run the node you can use `cosmovisor run start`. **It is highly recommended to run the EntryPoint as a service**, so that it can run in the background. You will need to replicate the environment variables defined above.
 
@@ -131,9 +133,8 @@ The public testnet is expected to require upgrades as new features are added or 
 - Register the upgrade: `cosmovisor add-upgrade <upgrade-name> <path-to-new-entrypointd-binary>`.
 - Wait for the upgrade height and monitor your node's logs to ensure everything goes well.
 
-## More Docs
+## More Docs And Guides
 
-- [Statesync guide](https://explorer.entrypoint.zone/entrypoint/statesync)
 - [Testnet information and guides](https://docs.nodex.one/networks/testnet/entrypoint) provided by [nodex.one](https://twitter.com/NodeXEmperor)
 - [Statesync guide](https://ivans-organization-17.gitbook.io/cosmos-node/entrypoint) provided by [tarabukinivan](https://explorer.entrypoint.zone/entrypoint/staking/entrypointvaloper1hzw08lptr8fa07f35ff0azxt7qtsh90srqpfx7)
 - [Guides in Russian](https://teletype.in/@lesnik13utsa/ngyL41zQdXu) provided by [lesnik | UTSA](https://utsa.gitbook.io/services)
