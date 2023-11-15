@@ -19,7 +19,7 @@
 
 ### Upgrade Instructions (with Cosmovisor)
 
-The steps to upgrade to the new version using Cosmovisor depends on whether you have `DAEMON_ALLOW_DOWNLOAD_BINARIES` set to `true`/`false`. If you are running Cosmovisor from a service file, this variable should be specified in the service file itself. Otherwise, you should be able to check it using `cosmovisor config`. If the variable is set to `false`, we recommend setting it to `true` by changing the service file or config, respectively.
+The steps to upgrade to the new version using Cosmovisor depends on whether you have `DAEMON_ALLOW_DOWNLOAD_BINARIES` set to `true`/`false`. If you are running Cosmovisor from a service file, this variable should be specified in the service file itself. Otherwise, you should be able to check it using `cosmovisor config`.
 
 If you will be running Cosmovisor with `DAEMON_ALLOW_DOWNLOAD_BINARIES=true` at the time of the upgrade, the upgrade process is expected to take place automatically without the need to download binaries.
 
