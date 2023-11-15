@@ -142,6 +142,7 @@ The public testnet is expected to require upgrades as new features are added or 
 - [Testnet information and guides](https://itrocket.net/services/testnet/entrypoint/) provided by [ITROCKET](https://itrocket.net).
 - [Telegram governance bot](https://t.me/itrocket_testnet_proposal_bot) provided by [ITROCKET](https://itrocket.net).
 - [RPC scanner](https://itrocket.net/services/testnet/entrypoint/public-rpc/) provided by [ITROCKET](https://itrocket.net).
+- [Testnet information and guides](https://stakerhouse.com/testnets/entrypoint/) provided by [StakerHouse](https://stakerhouse.com/).
 
 ## Contributors
 
@@ -155,3 +156,4 @@ Special thanks to:
 - [tarabukinivan](https://explorer.entrypoint.zone/entrypoint/staking/entrypointvaloper1hzw08lptr8fa07f35ff0azxt7qtsh90srqpfx7)
 - [STAVR](https://github.com/obajay)
 - [ITROCKET](https://itrocket.net)
+- [StakerHouse](https://stakerhouse.com/)
