@@ -24,7 +24,9 @@ Visit the [Scheduled Upgrades](./UPGRADES.md) page for details on previous, curr
 ## Endpoints
 
 - RPC: https://testnet-rpc.entrypoint.zone/
+- RPC: https://entrypoint-testnet-rpc.itrocket.net/
 - REST: https://testnet-rest.entrypoint.zone/swagger/
+- REST: https://entrypoint-testnet-api.itrocket.net/
 
 ## Explorers
 
@@ -34,7 +36,7 @@ Visit the [Scheduled Upgrades](./UPGRADES.md) page for details on previous, curr
 - https://test.anode.team/entrypoint provided by [ANODE.TEAM](https://anode.team/)
 - https://exp.utsa.tech/entrypoint-test provided by [lesnik | UTSA](https://utsa.gitbook.io/services)
 - https://explorer.stavr.tech/Entrypoint-Testnet/staking by [STAVR](https://github.com/obajay)
-- https://testnet.itrocket.net/entrypoint/staking by [ITROCKET](https://itrocket.net)
+- https://testnet.itrocket.net/entrypoint/staking by [ITRocket](https://itrocket.net)
 
 ## Listings
 
@@ -139,9 +141,9 @@ The public testnet is expected to require upgrades as new features are added or 
 - [Testnet information and guides](https://docs.nodex.one/networks/testnet/entrypoint) provided by [nodex.one](https://twitter.com/NodeXEmperor).
 - [Statesync guide](https://ivans-organization-17.gitbook.io/cosmos-node/entrypoint) provided by [tarabukinivan](https://explorer.entrypoint.zone/entrypoint/staking/entrypointvaloper1hzw08lptr8fa07f35ff0azxt7qtsh90srqpfx7).
 - [Guides in Russian](https://teletype.in/@lesnik13utsa/ngyL41zQdXu) provided by [lesnik | UTSA](https://utsa.gitbook.io/services).
-- [Testnet information and guides](https://itrocket.net/services/testnet/entrypoint/) provided by [ITROCKET](https://itrocket.net).
-- [Telegram governance bot](https://t.me/itrocket_testnet_proposal_bot) provided by [ITROCKET](https://itrocket.net).
-- [RPC scanner](https://itrocket.net/services/testnet/entrypoint/public-rpc/) provided by [ITROCKET](https://itrocket.net).
+- [Guides, snapshot services](https://itrocket.net/services/testnet/entrypoint) provided by [ITRocket]([https://itrocket.net/)
+- [Telegram governance bot](https://t.me/itrocket_testnet_proposal_bot) provided by [ITRocket](https://itrocket.net).
+- [RPC scanner](https://itrocket.net/services/testnet/entrypoint/public-rpc/) provided by [ITRocket](https://itrocket.net).
 - [Testnet information and guides](https://stakerhouse.com/testnets/entrypoint/) provided by [StakerHouse](https://stakerhouse.com/).
 
 ## Contributors
