@@ -23,10 +23,18 @@ Visit the [Scheduled Upgrades](./UPGRADES.md) page for details on previous, curr
 
 ## Endpoints
 
-- RPC: https://testnet-rpc.entrypoint.zone/
-- RPC: https://entrypoint-testnet-rpc.itrocket.net/
-- REST: https://testnet-rest.entrypoint.zone/swagger/
-- REST: https://entrypoint-testnet-api.itrocket.net/
+RPC:
+
+- https://testnet-rpc.entrypoint.zone/
+- https://entrypoint-testnet-rpc.itrocket.net/
+- https://entrypoint-testnet-rpc.stakerhouse.com/
+- https://rpc.entrypoint.banyumas-ngapak.online/
+
+REST:
+
+- https://testnet-rest.entrypoint.zone/swagger/
+- https://entrypoint-testnet-api.itrocket.net/
+- https://entrypoint-testnet-rest.stakerhouse.com/
 
 ## Explorers
 
@@ -35,8 +43,9 @@ Visit the [Scheduled Upgrades](./UPGRADES.md) page for details on previous, curr
 - https://explorer.hexnodes.co/entrypoint/staking provided by [Hexnodes](https://hexnodes.co/)
 - https://test.anode.team/entrypoint provided by [ANODE.TEAM](https://anode.team/)
 - https://exp.utsa.tech/entrypoint-test provided by [lesnik | UTSA](https://utsa.gitbook.io/services)
-- https://explorer.stavr.tech/Entrypoint-Testnet/staking by [STAVR](https://github.com/obajay)
-- https://testnet.itrocket.net/entrypoint/staking by [ITRocket](https://itrocket.net)
+- https://explorer.stavr.tech/Entrypoint-Testnet/staking provided by [STAVR](https://github.com/obajay)
+- https://testnet.itrocket.net/entrypoint/staking provided by [ITRocket](https://itrocket.net)
+- https://cosmotracker.com/entrypoint/staking provided by [StakerHouse](https://stakerhouse.com/).
 
 ## Listings
 
@@ -159,3 +168,4 @@ Special thanks to:
 - [STAVR](https://github.com/obajay)
 - [ITROCKET](https://itrocket.net)
 - [StakerHouse](https://stakerhouse.com/)
+- BANYUMAS||NGAPAK
