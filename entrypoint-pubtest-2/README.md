@@ -46,6 +46,7 @@ REST:
 - https://explorer.stavr.tech/Entrypoint-Testnet/staking provided by [STAVR](https://github.com/obajay)
 - https://testnet.itrocket.net/entrypoint/staking provided by [ITRocket](https://itrocket.net)
 - https://cosmotracker.com/entrypoint/staking provided by [StakerHouse](https://stakerhouse.com/).
+- https://explorer.moonbridge.team/entrypoint-test provided by [Moonbridge](https://services.moonbridge.team/moonbridge/).
 
 ## Listings
 
@@ -154,6 +155,8 @@ The public testnet is expected to require upgrades as new features are added or 
 - [Telegram governance bot](https://t.me/itrocket_testnet_proposal_bot) provided by [ITRocket](https://itrocket.net).
 - [RPC scanner](https://itrocket.net/services/testnet/entrypoint/public-rpc/) provided by [ITRocket](https://itrocket.net).
 - [Testnet information and guides](https://stakerhouse.com/testnets/entrypoint/) provided by [StakerHouse](https://stakerhouse.com/).
+- [Guides in Turkish](https://github.com/molla202/Entrypoint-pubtest-2/blob/main/README.md) provided by [CoreNode](CoreNode.info).
+- [Guides, statesync](https://services.moonbridge.team/moonbridge/testnet/entrypoint) provided by [Moonbridge](https://services.moonbridge.team/moonbridge/).
 
 ## Contributors
 
@@ -169,3 +172,5 @@ Special thanks to:
 - [ITROCKET](https://itrocket.net)
 - [StakerHouse](https://stakerhouse.com/)
 - BANYUMAS||NGAPAK
+- [CoreNode](CoreNode.info)
+- [Moonbridge](https://services.moonbridge.team/moonbridge/)
