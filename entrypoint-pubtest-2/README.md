@@ -52,6 +52,7 @@ REST:
 
 - https://github.com/ping-pub/ping.pub/blob/main/chains/testnet/entrypoint.json
 - https://github.com/cosmos/chain-registry/tree/master/testnets/entrypointtestnet
+- https://testnet.cosmos.directory/entrypointtestnet
 
 ## Run a Full Node
 
