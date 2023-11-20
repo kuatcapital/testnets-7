@@ -65,7 +65,7 @@ REST:
 
 Download binary and genesis (Note: genesis only needed if syncing from scratch):
 
-- Binary from: https://github.com/entrypoint-zone/testnets/releases/tag/v1.1.1.
+- Binary from: https://github.com/entrypoint-zone/testnets/releases/tag/v1.2.0.
 - Genesis from: https://github.com/entrypoint-zone/testnets/blob/main/entrypoint-pubtest-2/genesis.json.
 
 For convenience, copy the downloaded binary to `$GOPATH/bin/` with the name `entrypointd` for easy execution:
