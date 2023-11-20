@@ -47,6 +47,7 @@ REST:
 - https://testnet.itrocket.net/entrypoint/staking provided by [ITRocket](https://itrocket.net)
 - https://cosmotracker.com/entrypoint/staking provided by [StakerHouse](https://stakerhouse.com/).
 - https://explorer.moonbridge.team/entrypoint-test provided by [Moonbridge](https://services.moonbridge.team/moonbridge/).
+- https://testnet.explorer.tcnetwork.io/entrypoint/ provided by [TC NETWORK](https://tcnetwork.io/).
 
 ## Listings
 
@@ -175,3 +176,4 @@ Special thanks to:
 - BANYUMAS||NGAPAK
 - [CoreNode](CoreNode.info)
 - [Moonbridge](https://services.moonbridge.team/moonbridge/)
+- [TC NETWORK](https://tcnetwork.io/)
