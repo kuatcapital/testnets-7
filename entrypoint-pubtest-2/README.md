@@ -48,6 +48,7 @@ REST:
 - https://cosmotracker.com/entrypoint/staking provided by [StakerHouse](https://stakerhouse.com/).
 - https://explorer.moonbridge.team/entrypoint-test provided by [Moonbridge](https://services.moonbridge.team/moonbridge/).
 - https://testnet.explorer.tcnetwork.io/entrypoint/ provided by [TC NETWORK](https://tcnetwork.io/).
+- https://explorer.indonode.net/entrypoint-testnet/ provided by [Indonode](https://indonode.net/).
 
 ## Listings
 
@@ -159,6 +160,7 @@ The public testnet is expected to require upgrades as new features are added or 
 - [Testnet information and guides](https://stakerhouse.com/testnets/entrypoint/) provided by [StakerHouse](https://stakerhouse.com/).
 - [Guides in Turkish](https://github.com/molla202/Entrypoint-pubtest-2/blob/main/README.md) provided by [CoreNode](CoreNode.info).
 - [Guides, statesync](https://services.moonbridge.team/moonbridge/testnet/entrypoint) provided by [Moonbridge](https://services.moonbridge.team/moonbridge/).
+- [Guides, statesync, snapshots](https://docs.indonode.net/testnet/entrypoint) provided by [Indonode](https://indonode.net/).
 
 ## Contributors
 
@@ -177,3 +179,4 @@ Special thanks to:
 - [CoreNode](CoreNode.info)
 - [Moonbridge](https://services.moonbridge.team/moonbridge/)
 - [TC NETWORK](https://tcnetwork.io/)
+- [Indonode](https://indonode.net/)
